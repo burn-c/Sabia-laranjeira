@@ -62,10 +62,6 @@ flex-direction: column;
 }
 
 `;
-export const ProfilePage = styled.div`
-
-`;
-
 
 export const BottomMenu = styled.div`
 position: fixed;
