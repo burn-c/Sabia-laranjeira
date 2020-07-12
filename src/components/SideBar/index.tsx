@@ -29,7 +29,7 @@ const SideBar: React.FC = () => {
         ]}
         />
 
-<List
+        <List
         title="Opa tudo bem?"
         elements={[
           <h1>Teste</h1>,
@@ -39,7 +39,7 @@ const SideBar: React.FC = () => {
         ]}
         />
 
-        
+
       </Body>
     </Container>
   );
