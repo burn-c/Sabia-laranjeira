@@ -8,6 +8,7 @@ import {
   Body
 
 } from './styles';
+import List from '../List';
 
 const SideBar: React.FC = () => {
   return (
@@ -18,9 +19,27 @@ const SideBar: React.FC = () => {
       </SearchWrapper>
 
       <Body>
-        <p>
-          {'Aqui tem aluns elementos pode ter certeza. '.repeat(90)}
-        </p>
+        <List
+        title="Opa tudo bem?"
+        elements={[
+          <h1>Teste</h1>,
+          <h1>Teste</h1>,
+          <h1>Teste</h1>,
+          <h1>Teste</h1>
+        ]}
+        />
+
+<List
+        title="Opa tudo bem?"
+        elements={[
+          <h1>Teste</h1>,
+          <h1>Teste</h1>,
+          <h1>Teste</h1>,
+          <h1>Teste</h1>
+        ]}
+        />
+
+        
       </Body>
     </Container>
   );
