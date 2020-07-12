@@ -9,6 +9,7 @@ import {
 
 } from './styles';
 import List from '../List';
+import FollowSuggestion from '../FollowSuggestion';
 
 const SideBar: React.FC = () => {
   return (
@@ -20,12 +21,23 @@ const SideBar: React.FC = () => {
 
       <Body>
         <List
-        title="Opa tudo bem?"
+        title="Talvez você curta"
         elements={[
-          <h1>Teste</h1>,
-          <h1>Teste</h1>,
-          <h1>Teste</h1>,
-          <h1>Teste</h1>
+          <FollowSuggestion
+            name="Fulano Oliveira"
+            nickname="@fulano2020"
+          />,
+
+          <FollowSuggestion
+          name="Beltrano Oliveira"
+          nickname="@beltrano2020"
+        />,
+
+        <FollowSuggestion
+        name="Ciclano Oliveira"
+        nickname="@ciclano2020"
+      />
+
         ]}
         />
 
